@@ -42,10 +42,10 @@ public class OutletWorker implements Initializable {
 
     @Override
     public void initialize() throws Exception {
-        Fetchable configFetchable = configFetcher.fetchConfig(ConfigType.OUTLET, outletConfig.getDrinkID());
+        Fetchable configFetchable = configFetcher.fetchConfig(ConfigType.OUTLET, outletConfig.getDrink().getDrinkID());
         drinkToServe = deserializer.deserialize(configFetchable);
         if (drinkToServe == null){
-            throw new IllegalArgumentException("drink config with Id " + outletConfig.getDrinkID() + " could not be fetched ");
+            throw new IllegalArgumentException("drink config with Id " + outletConfig.getDrink().getDrinkID() + " could not be fetched ");
         }
         executorService = Executors.newSingleThreadExecutor();
         scheduler = Schedulers.from(executorService);
