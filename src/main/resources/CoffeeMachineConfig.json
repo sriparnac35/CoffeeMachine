@@ -1,0 +1,190 @@
+{
+    "id" : 1,
+     "outlet_count" : 5,
+     "outlet_config" : {
+          "1" : {
+              "outlet_id" : 1,
+              "serving_count" : 1,
+              "drink" : {
+                  "id" : 1,
+                  "name" : "Ginger Tea",
+                  "recipe" : {
+                    "id" : 1,
+                    "name" : "ginger_tea",
+                    "recipeItems" : [
+                      {
+                        "ingredient" : {
+                          "id" : 1,
+                          "name" : "Hot Water"
+                        },
+                        "quantity_in_ml" : 50
+                      },
+                      {
+                        "ingredient" : {
+                          "id" : 2,
+                          "name" : "Hot Milk"
+                        },
+                        "quantity_in_ml" : 10
+                      },
+                      {
+                        "ingredient" : {
+                          "id" : 3,
+                          "name" : "Tea Leaf Syrup"
+                        },
+                        "quantity_in_ml" : 10
+                      },
+                      {
+                        "ingredient" : {
+                          "id" : 4,
+                          "name" : "Ginger Syrup"
+                        },
+                        "quantity_in_ml" : 5
+                      },
+                      {
+                        "ingredient" : {
+                          "id" : 5,
+                          "name" : "Sugar Syrup"
+                        },
+                        "quantity_in_ml" : 10
+                      }
+                    ]
+                  }
+              }
+          },
+          "2" : {
+            "outlet_id" : 2,
+            "serving_count" : 1,
+            "drink" : {
+              "id" : 2,
+              "name" : "Elaichi Tea",
+              "recipe" : {
+                "id" : 1,
+                "name" : "elaichi_tea",
+                "recipeItems" : [
+                  {
+                    "ingredient" : {
+                      "id" : 1,
+                      "name" : "Hot Water"
+                    },
+                    "quantity_in_ml" : 50
+                  },
+                  {
+                    "ingredient" : {
+                      "id" : 2,
+                      "name" : "Hot Milk"
+                    },
+                    "quantity_in_ml" : 10
+                  },
+                  {
+                    "ingredient" : {
+                      "id" : 3,
+                      "name" : "Tea Leaf Syrup"
+                    },
+                    "quantity_in_ml" : 10
+                  },
+                  {
+                    "ingredient" : {
+                      "id" : 6,
+                      "name" : "Elaichi Syrup"
+                    },
+                    "quantity_in_ml" : 5
+                  },
+                  {
+                    "ingredient" : {
+                      "id" : 5,
+                      "name" : "Sugar Syrup"
+                    },
+                    "quantity_in_ml" : 10
+                  }
+                ]
+              }
+            }
+          },
+          "3" : {
+            "outlet_id" : 3,
+            "serving_count" : 1,
+            "drink" : {
+              "id" : 3,
+              "name" : "Coffee",
+              "recipe" : {
+                "id" : 1,
+                "name" : "coffee_tea",
+                "recipeItems" : [
+                  {
+                    "ingredient" : {
+                      "id" : 1,
+                      "name" : "Hot Water"
+                    },
+                    "quantity_in_ml" : 50
+                  },
+                  {
+                    "ingredient" : {
+                      "id" : 2,
+                      "name" : "Hot Milk"
+                    },
+                    "quantity_in_ml" : 10
+                  },
+                  {
+                    "ingredient" : {
+                      "id" : 7,
+                      "name" : "Coffee Syrup"
+                    },
+                    "quantity_in_ml" : 10
+                  },
+
+                  {
+                    "ingredient" : {
+                      "id" : 5,
+                      "name" : "Sugar Syrup"
+                    },
+                    "quantity_in_ml" : 10
+                  }
+                ]
+              }
+            }
+          },
+          "4" : {
+            "outlet_id" : 4,
+            "serving_count" : 1,
+            "drink" : {
+              "id" : 4,
+              "name" : "Hot Milk",
+              "recipe" : {
+                "id" : 4,
+                "name" : "hot_milk",
+                "recipeItems" : [
+                  {
+                    "ingredient" : {
+                      "id" : 2,
+                      "name" : "Hot Milk"
+                    },
+                    "quantity_in_ml" : 50
+                  }
+                ]
+              }
+            }
+          },
+          "5" : {
+            "outlet_id" : 5,
+            "serving_count" : 1,
+            "drink" : {
+              "id" : 5,
+              "name" : "Hot Water",
+              "recipe" : {
+                "id" : 5,
+                "name" : "hot water",
+                "recipeItems" : [
+                  {
+                    "ingredient" : {
+                      "id" : 1,
+                      "name" : "Hot Water"
+                    },
+                    "quantity_in_ml" : 50
+                  }
+                ]
+              }
+            }
+          }
+     }
+
+}

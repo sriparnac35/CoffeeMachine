@@ -4,6 +4,7 @@ package com.hillhouse.sriparna.config;
 Created by sriparna.c on 08/08/20 */
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.hillhouse.sriparna.interfaces.Fetchable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -11,7 +12,7 @@ import java.util.Map;
 
 @AllArgsConstructor
 @Data
-public class CoffeeMachineConfig {
+public class CoffeeMachineConfig implements Fetchable {
     @JsonProperty("id")
     private final Integer id;
 
