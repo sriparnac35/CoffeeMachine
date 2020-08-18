@@ -14,6 +14,9 @@ public class Drink {
     @NonNull @JsonProperty("id")
     private final Integer drinkID;
 
+    @NonNull @JsonProperty("name")
+    private final String drinkName;
+
     @NonNull @JsonProperty("recipe")
     private final Recipe recipe;
 }

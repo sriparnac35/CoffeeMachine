@@ -16,7 +16,7 @@ import lombok.RequiredArgsConstructor;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 @RequiredArgsConstructor
-public abstract class OutletUI implements Initializable {
+public abstract class Outlet implements Initializable {
     @Inject private OrderManager orderManager;
     @Inject private LogManager logManager;
     private final CoffeeMachineOutletConfig outletConfig;
@@ -45,7 +45,7 @@ public abstract class OutletUI implements Initializable {
         }
         onProgressStart();
         isBusy.set(true);
-        Order order = orderManager.createNewOrder(outletConfig.getDrinkID());
+        Order order = orderManager.createNewOrder(outletConfig.getDrink().getDrinkID());
         outletWorker.serve(order).subscribe(item -> {}, throwable -> onOrderServeFailed(order, throwable),
                 () -> onOrderServeSuccess(order), Disposable::dispose);
     }

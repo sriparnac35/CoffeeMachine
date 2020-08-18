@@ -5,8 +5,8 @@ Created by sriparna.c on 08/08/20 */
 
 import com.hillhouse.sriparna.config.CoffeeMachineOutletConfig;
 
-public class ConsoleOutletUI extends OutletUI {
-    public ConsoleOutletUI(CoffeeMachineOutletConfig outletConfig) {
+public class ConsoleOutlet extends Outlet {
+    public ConsoleOutlet(CoffeeMachineOutletConfig outletConfig) {
         super(outletConfig);
     }
 
